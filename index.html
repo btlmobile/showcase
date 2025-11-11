@@ -3,56 +3,59 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bài Tập Lớn - Hệ Thống Quản Lý Sinh Viên</title>
+  <title>SeaWhisper - Ứng Dụng Chia Sẻ Tâm Sự Ẩn Danh</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 <body class="bg-gray-50 text-gray-800">
   <!-- Header -->
-  <header class="bg-indigo-600 text-white text-center py-10">
-    <h1 class="text-4xl font-bold">🧩 Hệ Thống Quản Lý Sinh Viên</h1>
-    <p class="mt-2 text-lg">Bài tập lớn nhóm - Nộp qua GitHub Pages</p>
-  </header>
+<!-- Header -->
+<header class="bg-indigo-600 text-white text-center py-10">
+  <h1 class="text-4xl font-bold">🌊 SeaWhisper - Ứng Dụng Chia Sẻ Tâm Sự Ẩn Danh</h1>
+  <p class="mt-2 text-lg">Tạo không gian an toàn, không toxic để bạn có thể trải lòng</p>
+</header>
 
-  <!-- Mô tả dự án -->
-  <section class="max-w-5xl mx-auto p-6 bg-white mt-10 rounded-xl shadow" data-aos="fade-up">
-    <h2 class="text-2xl font-bold text-indigo-700 mb-4">📘 Thông Tin Dự Án</h2>
-    <p><strong>Tên dự án:</strong> Hệ Thống Quản Lý Sinh Viên</p>
-    <p class="mt-2"><strong>Mô tả vấn đề:</strong> Ứng dụng hỗ trợ giảng viên và sinh viên quản lý thông tin học tập, điểm số và lịch học một cách hiệu quả, thay thế phương thức quản lý thủ công bằng Excel.</p>
-  </section>
+<!-- Tổng quan dự án -->
+<section class="max-w-5xl mx-auto p-6 bg-white mt-10 rounded-xl shadow" data-aos="fade-up">
+  <h2 class="text-2xl font-bold text-indigo-700 mb-4">📘 Tổng Quan Dự Án</h2>
+  <p><strong>Tên dự án:</strong> SeaWhisper - Ứng dụng chia sẻ tâm sự ẩn danh</p>
+  <p class="mt-2"><strong>Mô tả:</strong> SeaWhisper là một ứng dụng mobile cho phép người dùng chia sẻ tâm sự một cách ẩn danh thông qua việc “thả chai” và nhận phản hồi từ cộng đồng. Ứng dụng tập trung vào việc tạo ra một không gian an toàn, không toxic để người dùng có thể giải tỏa cảm xúc.</p>
+</section>
 
-  <!-- Tính năng chính -->
-  <section class="max-w-5xl mx-auto p-6 bg-white mt-6 rounded-xl shadow" data-aos="fade-up">
-    <h2 class="text-2xl font-bold text-indigo-700 mb-4">✨ Tính Năng Chính</h2>
-    <ul class="list-disc list-inside space-y-2">
-      <li>👤 Quản lý sinh viên, giảng viên, lớp học</li>
-      <li>🗓️ Xem và đăng ký lịch học</li>
-      <li>📊 Thống kê điểm, xếp hạng</li>
-      <li>🔐 Đăng nhập, phân quyền người dùng</li>
-    </ul>
-  </section>
+<!-- Problem Statement -->
+<section class="max-w-5xl mx-auto p-6 bg-white mt-6 rounded-xl shadow" data-aos="fade-up">
+  <h2 class="text-2xl font-bold text-indigo-700 mb-4">🚧 Problem Statement</h2>
+  <p class="mb-2"><strong>Pain Points từ khảo sát:</strong></p>
+  <ul class="list-disc list-inside space-y-1">
+    <li>Người trẻ có nhu cầu chia sẻ tâm sự nhưng sợ bị phán xét</li>
+    <li>Các ứng dụng ẩn danh hiện có (YikYak, Whisper, NGL…) thường toxic, ít kiểm duyệt</li>
+    <li>Mạng xã hội công khai khiến nhiều người mất an toàn tâm lý</li>
+  </ul>
 
-  <!-- Công nghệ sử dụng -->
-  <section class="max-w-5xl mx-auto p-6 bg-white mt-6 rounded-xl shadow" data-aos="fade-up">
-    <h2 class="text-2xl font-bold text-indigo-700 mb-4">⚙️ Công Nghệ Sử Dụng</h2>
-    <div class="overflow-x-auto">
-      <table class="min-w-full border border-gray-300 text-left">
-        <thead class="bg-indigo-100">
-          <tr>
-            <th class="py-2 px-4">Công Nghệ</th>
-            <th class="py-2 px-4">Mô Tả</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td class="py-2 px-4">🐍 Python / Django</td><td class="py-2 px-4">Xây dựng backend, xử lý logic</td></tr>
-          <tr><td class="py-2 px-4">💾 PostgreSQL</td><td class="py-2 px-4">Cơ sở dữ liệu chính</td></tr>
-          <tr><td class="py-2 px-4">⚛️ ReactJS</td><td class="py-2 px-4">Xây dựng giao diện người dùng</td></tr>
-          <tr><td class="py-2 px-4">🐳 Docker</td><td class="py-2 px-4">Triển khai môi trường linh hoạt</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
+  <p class="mt-4 mb-2"><strong>Insight từ khảo sát:</strong></p>
+  <ul class="list-disc list-inside space-y-1">
+    <li>80% người dùng mong muốn "an toàn, không toxic"</li>
+    <li>60% thích app có cảm giác bí ẩn, nhẹ nhàng</li>
+    <li>45% từng bị ảnh hưởng cảm xúc sau khi dùng app ẩn danh khác</li>
+    <li>Nhiều người từng xóa app ẩn danh vì bị toxic</li>
+  </ul>
+</section>
+
+<!-- Solution -->
+<section class="max-w-5xl mx-auto p-6 bg-white mt-6 rounded-xl shadow" data-aos="fade-up">
+  <h2 class="text-2xl font-bold text-indigo-700 mb-4">🛠️ Solution</h2>
+  <p class="mb-2">SeaWhisper cung cấp:</p>
+  <ul class="list-disc list-inside space-y-1">
+    <li>Cho phép "thả chai" tâm sự (text, audio, hoặc sticker)</li>
+    <li>"Người lạ" ngẫu nhiên nhặt chai, có thể chọn gửi lại phản hồi an ủi</li>
+    <li>Sử dụng AI filter (sentiment analysis + toxic detection) để loại bỏ nội dung tiêu cực</li>
+    <li>Có chế độ thư mục cảm xúc, nơi người dùng lưu lại chai mình từng nhận</li>
+    <li>Không dùng ranking/like → giảm so sánh xã hội</li>
+    <li>Cộng đồng nhỏ, được kiểm duyệt bởi AI và tính năng report</li>
+  </ul>
+</section>
+
 
   <!-- Screenshot -->
   <section class="max-w-5xl mx-auto p-6 bg-white mt-6 rounded-xl shadow text-center" data-aos="fade-up">
